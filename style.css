@@ -113,12 +113,37 @@ section {
   color: #222;
 }
 
-/* Responsive */
+/* Responsive for Mobile */
 @media (max-width: 768px) {
-  .section-title {
-    font-size: 1.8rem;
+  section {
+    padding: 40px 15px;
   }
+
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+  }
+
   .card, .step {
     padding: 20px;
+    text-align: left;
+  }
+
+  .card h3, .step h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p, .step p {
+    font-size: 0.95rem;
+  }
+
+  .card .icon {
+    font-size: 2rem;
+  }
+
+  .step-number {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
   }
 }
